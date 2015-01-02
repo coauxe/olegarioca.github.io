@@ -1,0 +1,228 @@
+body{
+	background-color:black ;
+	font-family:'Roboto', sans-serif;
+	overflow:hidden;
+	font-size: 48px;
+}
+.background{
+margin:0;
+padding:0;
+position:absolute;
+z-index: -1; 
+display: none;
+top:0;
+left:0;
+bottom:0;
+right:0;
+width: 100%;
+height: 100%;
+background: url('images/sand.jpg');
+}
+
+.background.about{
+height: 160%;
+}
+
+h1{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 55px;
+	display:block;
+	position:relative;
+	margin-top: 85px;
+	margin-bottom: 40px;
+}
+
+h2{
+	text-align:center;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 35px;
+	display:block;
+	position:relative;
+}
+
+#about_text {
+	text-align: left;
+	color:#FFFFFF;
+	font-size: 20px;
+	margin-left:100px;
+}
+
+b{
+	font-weight:900;
+}
+
+#goat{
+	margin-left: 10px;
+	margin-right: 40px;
+	border:solid;
+	border-color: #FFFFFF;
+	border-radius: 10px;
+	border-width: 7px;
+}
+
+#content{
+	margin-left: 475px;
+    margin-right:auto;
+    width:960px;
+	/*margin-top: 70px;
+	margin-left: 420px;*/
+}
+
+#link_projects{
+	margin-left: 900px;
+	margin-top: 215px;
+    margin-right:auto;
+    width:960px;
+
+}
+
+#link_about{
+	margin-left: 900px;
+	margin-top: 60px;
+    margin-right:auto;
+    width:960px;
+
+}
+
+#link_contact{
+	margin-left: 900px;
+	margin-top: 135px;
+    margin-right:auto;
+    width:960px;
+}
+
+
+#link_blog{
+	margin-left: 900px;
+	margin-top: 225px;
+    margin-right:auto;
+    width:960px;
+}
+a.github{
+	font-size:50px;
+	color:#FFFFFF;
+	font-weight: bold;
+}
+
+a.email{
+	color:#FFFFFF;
+	margin-left: 525px;
+	font-weight:bold;
+	border:solid;
+	border-radius: 30px;
+	border-color:black;
+	padding:10px;
+	background-color:black;
+}
+
+.links{
+	display:block;
+	text-align: right;
+	float: left;
+	margin-right: 10px ;
+	margin-left: 10px;
+	position: relative;
+}
+
+.highlight{
+	top:-5px;
+	font-weight: bold;
+}
+
+a{
+	color:white;
+    line-height:100px;
+    text-align: center;
+    font-size:30px;
+    text-decoration: none
+}
+
+#instagram{
+	text-align: right;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 550px;
+	position: relative
+}
+
+#linkedin{
+	text-align: right;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 550px;
+	position: relative;
+}
+
+#twitter{
+	text-align: right;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+	margin-top: 555px;
+	position: relative
+}
+
+#mail{
+	text-align: right;
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 550px;
+	position: relative
+}
+
+#facebook{
+	text-align: right;
+	display: inline-block;
+	float: left;
+	margin-right: 25px;
+	margin-top: 550px;
+	position: relative
+}
+
+#header{
+	position: fixed;
+	top: 15px;
+	right: 0;
+}
+
+.boxes{
+	border:solid;
+	border-width: 15px;
+	border-color: black;
+}
+
+/*#grid {
+    width: 1250px;
+    height: 600px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -10px;
+}
+.gridbox {
+    width: 1250px;
+    height: 120px;
+    outline: 1px solid;
+    float: left;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 
+    			1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+}*/
+
+
+/*.about{
+	display: inline-block;
+}
+
+.projects{
+	display: inline-block;
+}
+.contact{
+	display: inline-block;
+}
+.blog{
+	display: inline-block;
+}*/
