@@ -22,6 +22,12 @@ background: url('images/sand.jpg');
 .background.about{
 height: 160%;
 }
+.background.projects{
+	height:107%;
+}
+.background.blog{
+	height:100%;
+}
 
 h1{
 	text-align: center;
@@ -72,7 +78,7 @@ b{
 
 #link_projects{
 	margin-left: 900px;
-	margin-top: 215px;
+	margin-top: 0px;
     margin-right:auto;
     width:960px;
 
@@ -88,7 +94,7 @@ b{
 
 #link_contact{
 	margin-left: 900px;
-	margin-top: 135px;
+	margin-top: 120px;
     margin-right:auto;
     width:960px;
 }
@@ -96,7 +102,7 @@ b{
 
 #link_blog{
 	margin-left: 900px;
-	margin-top: 225px;
+	margin-top: 250px;
     margin-right:auto;
     width:960px;
 }
