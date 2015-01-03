@@ -91,10 +91,15 @@ a.github{
 	color:#FFFFFF;
 	font-weight: bold;
 }
-
-a.email{
+#email{
+	width:100%;
+}
+#mailto{
+	width:25%;
+	text-align: center;
+    display: block;
+    margin: 0 auto;
 	color:#FFFFFF;
-	margin-left: 37.5%;
 	font-weight:bold;
 	border:solid;
 	border-radius: 30px;
@@ -108,6 +113,15 @@ table{
 }
 td{
 	padding-left:10px;
+}
+
+.links{
+	display:block;
+	text-align: right;
+	float: left;
+	margin-right: 10px ;
+	margin-left: 10px;
+	position: relative;
 }
 
 .highlight{
