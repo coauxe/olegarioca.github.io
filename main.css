@@ -103,16 +103,11 @@ a.email{
 	background-color:black;
 }
 
-.links{
-	display:block;
-	text-align: right;
-	float: left;
-	margin-right: 10px ;
-	margin-left: 10px;
-	position: relative;
+table{
+	margin:auto;
 }
-.links.about{
-	margin-left:22%;
+td{
+	padding-left:10px;
 }
 
 .highlight{
