@@ -49,11 +49,13 @@ b{
 	border-radius: 10px;
 	border-width: 7px;
 }
-
+#outer{
+	width:100%;
+}
 #content{
-	margin-left: 35%;
-    margin-right:auto;}
-
+	width:50%;
+	margin:0 auto;
+}
 #link_projects{
 	margin-left: 65%;
 	margin-top: 0;
@@ -109,10 +111,16 @@ a.email{
 	margin-left: 10px;
 	position: relative;
 }
+.links.about{
+	margin-left:20%;
+}
 
 .highlight{
 	top:-5px;
 	font-weight: bold;
+}
+span{
+	margin-left: 10%;
 }
 
 a{
@@ -123,7 +131,7 @@ a{
     text-decoration: none
 }
 #header{
-	margin-left:85%;
+	margin-left:80%;
 	margin-top:18%;
 	position:relative;
 }
@@ -142,7 +150,7 @@ a{
 	display: inline-block;
 	float: left;
 	margin-right: 10px;
-
+	margin-left:25%;
 	position: relative;
 }
 
