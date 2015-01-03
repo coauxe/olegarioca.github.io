@@ -49,7 +49,7 @@ b{
 	border-radius: 10px;
 	border-width: 7px;
 }
-#outer{
+.outer{
 	width:100%;
 }
 #content{
@@ -112,7 +112,7 @@ a.email{
 	position: relative;
 }
 .links.about{
-	margin-left:20%;
+	margin-left:22%;
 }
 
 .highlight{
