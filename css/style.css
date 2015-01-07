@@ -8,7 +8,7 @@ html * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 401px){
 body {
   font-size: 100%;
   font-family: 'Amatic SC', cursive;
@@ -67,7 +67,7 @@ a {
   display: table;
   clear: both;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 401px) {
   .linktable{
   float: right;
   margin-right: 1%;
@@ -142,7 +142,7 @@ a {
   background-color: black;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 401px) {
   .cd-main-nav {
     width: auto;
     height: auto;
@@ -215,7 +215,7 @@ p#aboutme{
   background-image: url("../img/rainbow.jpg");
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 401) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
   }
@@ -257,7 +257,7 @@ p#aboutme{
   background-color: #001E00;
   color: #3d3536;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 401px) {
   .cd-scrolling-bg {
     padding: 8em 0;
     font-size: 30px;
