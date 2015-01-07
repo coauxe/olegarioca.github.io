@@ -116,8 +116,12 @@ ul.skills{
 }
 
 @media only screen and (max-width: 400px){
-	h1{
-		text-align: center;
-	}
+	#left{
+	float:left;
+	width:600px;
+	margin-right:0;
+	padding:0;
+	text-align: center;
+}
 
 }
