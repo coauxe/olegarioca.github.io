@@ -8,13 +8,24 @@ html * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+@media only screen and (min-width: 768px){
 body {
   font-size: 100%;
   font-family: 'Amatic SC', cursive;
   font-size: 100px;
   color: #3d3536;
   background-color: white;
+}
+}
+@media only screen and (max-width: 400px){
+body {
+  font-size: 100%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+  color: #3d3536;
+  background-color: white;
+  overflow-x:hidden;
+}
 }
 
 body, html {
@@ -203,6 +214,7 @@ p#aboutme{
 .cd-fixed-bg.cd-bg-4 {
   background-image: url("../img/rainbow.jpg");
 }
+
 @media only screen and (min-width: 768px) {
   .cd-fixed-bg h1, .cd-fixed-bg h2 {
     font-size: 36px;
