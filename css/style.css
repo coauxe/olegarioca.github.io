@@ -93,6 +93,43 @@ a {
   height: 100%;
   background-color: black;
 }
+@media only screen and (max-width: 400px) {
+  .linktable{
+  float: right;
+  margin-right: 1%;
+}
+  .linktable tr td{
+    padding-right: 5px;
+  }
+  .resume{
+    float:left;
+    font-size:2.5rem;.
+    color:white;
+    margin:2%;
+    margin-top:15%;
+  }
+  #headername{
+  text-align: center;
+  color: #656565;
+  font-size: 40px;
+  font-weight:bold;
+  display:block;
+  position:relative;
+  margin-top: 5px;
+}
+  }
+  .cd-header {
+    height: 70px;
+  }
+}
+
+.cd-main-nav {
+  float: right;
+  margin-right: 5%;
+  width: 44px;
+  height: 100%;
+  background-color: black;
+}
 
 @media only screen and (min-width: 768px) {
   .cd-main-nav {
@@ -211,9 +248,17 @@ p#aboutme{
 @media only screen and (min-width: 768px) {
   .cd-scrolling-bg {
     padding: 8em 0;
-    font-size: 40px;
-    font-size: 1.7rem;
+    font-size: 30px;
     line-height: 2;
     font-weight: 300;
   }
 }
+@media only screen and (max-width: 400px) {
+  .cd-scrolling-bg {
+    padding: 8em 0;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 300;
+  }
+}
+
