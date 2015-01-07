@@ -1,0 +1,116 @@
+body{
+	font-family: 'Roboto Slab', serif;
+	background-color:#2e2e2e; 
+	color:#e0e0e0;
+}
+h1 {
+	font-size:2.3em;
+	margin-left
+}
+h2 {
+	text-align:center;
+	position: auto;
+}
+
+h3{
+	margin-left:1.2em;
+
+}
+h3 p p{
+	font-size:.85em;
+}
+h4{
+	font-size:1em;
+}
+h4 a {
+	text-decoration:none;
+	color:white;
+}
+hr{
+	width:100%;
+	border-color:#000066;
+	background-color: #000066;
+}
+div {
+	border-radius: 5px;
+}
+p{
+	display:inline-block;
+}
+#obj{
+	margin-left:50px;
+	margin-right:50px;
+}
+.org{
+	font-size:1.2em;
+	margin-left:2.5em;
+}
+p.date{
+	font-size:.85em;
+	display:inline;
+}
+p.date.scc{
+	margin-left:90px;
+}
+p.date.earth{
+	margin-left: 245px
+}
+p.date.noaa{
+	margin-left:40px;
+}
+li a{
+	text-decoration: none;
+	color:#e0e0e0;
+}
+.ed{
+	text-align: center;
+}
+#content{
+	margin-left:175px;
+	margin-right:175px;
+}
+.container{
+	width:100%;
+}
+#left{
+	float:left;
+	width:600px;
+	margin-left: 335px;
+	margin-right:0;
+	padding:0;
+	text-align: right;
+}
+#right{
+	padding:0;
+	margin-right:0;
+	margin-left:0;
+	float:left;
+	width:250px;
+	text-align: left;
+	text-decoration: none;
+}
+#skillsleft{
+	float:left;
+	width:250px;
+	padding-left: 160px;
+}
+#skillsmid{
+	float:left;
+	width:250px;
+}
+#skillsright{
+	float:left;
+	width:250px;
+}
+.vertical{
+	border-left: thin solid black;
+	border-color: #000066;
+}
+ul.top{
+	list-style-type: none;
+	font-size:15px;
+}
+ul.skills{
+	list-style-type: none;
+	font-size:15px;
+}
