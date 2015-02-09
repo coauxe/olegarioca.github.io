@@ -1,0 +1,241 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.p {
+    font-family:'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+.navbar .nav > li > a,
+.navbar .nav > li.current-menu-item > a, 
+.navbar .nav > li.current-menu-ancestor > a {
+	font-size:1.3em;
+	padding-top:10px;
+	font-family:'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+body{
+	padding-top:65px;
+	height:100%;
+	width:100%;
+	font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+.navbar-brand{
+	margin-bottom:25px;
+	margin-top: -10px;
+}
+.clear{
+	clear:both;
+}
+.modal-button a{
+	text-decoration: none;
+}
+.tooltip {
+    z-index: 2000 !important;
+}
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  font-family: 'Permanent Marker', cursive,arial;
+  color:white;
+  margin: 0;
+  padding: 0;
+}
+.text-vcenter h3{
+	color:white;
+	font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+/* additional sections */
+#name {
+  background: url(img/me.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about {
+  background-color: #951E00;
+  color: #F5F5F6;
+
+}
+.about h2{
+	text-align: center;
+  font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+.projects h2{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+.contact h2{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+.photos h2{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+.thankYou h2{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+  margin-top:500px;
+  color:#FFFFFF;
+}
+
+#aboutlist li{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+  list-style-type: none;
+  font-size:1.5em;
+}
+#projects {
+  background: url(img/sanddune.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#projects .panel {
+  opacity: 0.70;
+}
+#contact .panel {
+  opacity: 0.70;
+  text-align: center;
+}
+#contactText{
+  font-size:2em;
+}
+#email{
+  text-decoration: none;
+}
+#emailContainer{
+  margin-bottom:50px;
+}
+
+.projectTitle{
+	text-align: center;
+	color:#F5F5F6;
+  padding-bottom:20px;
+  font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+#githubLink{
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+#githubLink a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size:2em;
+}
+.projectTitle a{
+  text-align: center;
+  color:white;
+  padding-bottom:20px;
+  text-decoration: none;
+  font-size:1.5em;
+  font-family: 'Josefin Sans', sans-serif, Arial, sans-serif;
+}
+}
+.projectTitle a:hover{
+  text-align: center;
+  color:#D2D7DA;
+  padding-bottom:20px;
+  text-decoration: none;
+}
+
+#photos {
+  background-color: #000011;
+  color: #F5F5F6;
+}
+.photos{
+  margin-bottom:50px;
+}
+.photos h2{
+  text-align: center;
+}
+.cd-scrolling-bg {
+  position: relative;
+  min-height: 100%;
+  padding: 4em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  }
+.cd-scrolling-bg.cd-color-2 {
+  background-color: #000011;
+}
+.cd-container {
+  width: 90%;
+  max-width: 768px;
+  margin: 0 auto;
+}
+#contact {
+  background: url(img/mirrormount.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#thankYou {
+  background: url(img/rainbow.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#map{
+  background-color: #306d9f;
+  color:#FFFFFF;
+}
+#quote{
+  background-color: #999999;
+  color:#FFFFFF;
+  font-family:'Josefin Sans', sans-serif, Arial, sans-serif
+}
+#google_map {
+  height: 500px;
+}

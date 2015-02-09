@@ -1,73 +1,144 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/simple-slideshow-styles.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-	<link rel="shortcut icon" href="images/cao icon final-20150102-favicon.ico">
-	<script style="text/javascript" src="js/better-simple-slideshow.js"></script>
-  	
-	<title>welcome</title>
+	<title>CAO</title>
+	<link type="text/css" rel="stylesheet" href="main.css">
+	<link type="text/css" rel="stylesheet" href="slideshow.css">
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	<script style="text/javascript" src="slideshow.js"></script>
+	<script src="modernizr.js"></script>
+	
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script style="text/javascript" src="main.js"></script>
 </head>
-<body>
-	<header class="cd-header">
-		<h1 id="headername">christopher andrew olegario</h1>
-		<table class="linktable">
-			<tr>
-				<td><a href="https://www.linkedin.com/pub/christopher-olegario/48/541/336"><img  src="img/linkedin.png" alt=""></a></td>
-				<td><a href="mailto:caolegario@gmail.com"><img src="img/mail.png"></a></td>
-				<td><a href="https://github.com/olegarioca"><img src="img/gitcat.png" alt=""></a></td>
-				<td><a href="http://instagram.com/olegarioca/"><img  src="img/instagram.png"></a></td>
-				<td><a href="https://www.facebook.com/christopher.a.olegario"><img src="img/facebook.png"></a></td>
-			</tr>
-		</table>
-		<table class="resume">
-			<tr>
-				<td><a href="resume/resume.html"><font color="white">resume</font></a></td>
-			</tr>
-		</table>
-	</header>
+<body data-spy="scroll" data-target=".navbar-collapse">
+<!-- scroll spy integration -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+				<a class="navbar-brand" href="index.html">
+					<img alt="Brand" src="img/caoicon.png" alt="">
+				</a>
+		      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-main">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		      	</button>
+		    </div>
+		 	<div class="collapse navbar-collapse" id="navbar-collapse-main">
+		    	<ul class="nav navbar-nav navbar-right">
+		    		<li class="active"><a href="#about">about</a></li>
+		    		<li><a href="#projects">projects</a></li>
+		    		<li><a href="#photos">photos</a></li>
+		    		<li><a href="#contact">contact</a></li>
+		    		<li><a href="#blog">blog</a></li>
 
-	<main class="cd-main-content">
+		      	</ul>
+      		</div>
+      	</div>
+	</nav>
+<!-- 	intro -->
+<div id="name" class="home">
+  <div class="text-vcenter">
+    <h1>christopher andrew olegario</h1>
+    <h3>web developer, adventurer</h3>
+  </div>
+</div>
+<!-- /first section -->
 
-		<div class="cd-fixed-bg cd-bg-1">
-		</div> <!-- cd-fixed-bg -->
+<!-- about -->
+<!-- second section - About -->
+<div id="about" class="pad-section">
+  <div class="container about">
+        <h2>about</h2>
+        <p class="lead">When I was younger, I would stay at my grandparent's house in Vancouver, BC over summer vacation. My grandpa had some trees on his property he wanted cut down, so I would, piece by piece, chop one tree down every summer. I would wake up with the sun, eat my Cinnamon Toast Crunch, and head outside. I would start hacking away only stopping to watch The Big Comfy Couch or Goosebumps and eat. This would happen every day until that tree came down. Nothing could keep me away from it. Being outside just felt right.
 
-		<div class="cd-scrolling-bg cd-color-1">
-			<div class="cd-container">
-				<div id="aboutme">
-					<p>Beauty comes, first and foremost, from nature</p>
-					<br>
-					<p> Through design, I have found an avenue to channel my connection to the great outdoors</p>
-					<br>
+        <br><br>I loved everything about it. The smell, the sounds, the feeling. A bond formed that will resonate with me for life.
 
-					<p>I've devoted much of my life to environmental conservation. After attending college for environmental studies and committing two years with AmeriCorps to shape greater ecosystems for our posterity, I started focusing on my second passion: computer programming. My goal is to find a company that needs knowledge of both environmental concerns as well as the ability to program to ensure that both scope and expectations are maintained.</p>
-					<br>
-					<br>
+        <br><br>There's a beauty in nature that's hard to describe. Every living thing on Earth was created, more or less, through happenstance. Many things had to be <em>just</em> right for the world around us to exist as it is. Well, programming is much like the forces of nature. Piece by piece we create incredible things that would otherwise seem impossible. And now, every time I start clacking away, I'm reminded of the time where everything felt just right.</p>
+        <ul id="aboutlist">
+			<li>my repertoire:</li>
+			<li>html,&nbsp;&nbsp;css,&nbsp;&nbsp;jQuery</li>
+			<li>bootstrap</li>
+			<li>wordpress</li>
+			<li>php</li>
+			<li>mySQL</li>
+			<li>python</li>	
+			<li>git</li>
+				
+		</ul>
+    </div>
+</div>
+<!-- projects -->
+<div id="projects" class="pad-section">
+  <div class="container projects">
+  	<h2 class="projectTitle">projects</h2>
+    
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">Around the World Trivia</h2>
+          </div>
+          <div class="panel-body lead">
+			<a href="http://countrivia.herokuapp.com/"><img src="http://www.majestymaps.com/wp-content/uploads/2014/01/1863_world_map-25001.jpg" alt=""></a>
 
-						<ul id="aboutlist">
-							<li>my repertoire:</li>
-							<li>html,&nbsp;&nbsp;css,&nbsp;&nbsp;jQuery</li>
-							<li>python</li>	
-							<li>git</li>
-							
-						</ul>
-				</div>
-			</div>
-		</div>
+          </div>
 
-		<div class="cd-fixed-bg cd-bg-2">
-			<h2>photos</h2>
-		</div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">Reaction Tester</h2>
+          </div>
+          <div class="panel-body lead">
+            <a href="http://olegarioca.github.io/reactiontester/"><img src="http://static.grindtv.com/images/1/00/40/85/02/408502.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
 
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">Code Runner</h2>
+          </div>
+          <div class="panel-body lead">
+            <a href="http://olegarioca.github.io/code_runner/"><img src="https://www.planet-source-code.com/Upload_PSC/ScreenShots/PIC200310241653526376.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2 class="panel-title">Form Validation</h2>
+          </div>
+          <div class="panel-body lead">
+            <a href="http://olegarioca.github.io/form_validation/"><img src="img/smarty.jpg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <h3 id="githubLink"><a href="https://github.com/olegarioca">github</a></h3>
+</div>
+
+<!-- /fourth section -->
+<div id="photos" class="pad-section">
+  <div class="container photos">
+        <h2>photos</h2>
 		<div class="cd-scrolling-bg cd-color-2">
 			<div class="cd-container">
 
@@ -131,27 +202,65 @@
 
 			</div>
 			</div> <!-- cd-container -->
-		</div> <!-- cd-scrolling-bg -->
+		</div>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact" class="pad-section">
+  <div class="container contact">
+  	<h2 class="projectTitle">contact</h2>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="panel panel-default">
+          <div class="panel-body lead">
+          	<div id="emailContainer">
+            <p id="contactText"><a href="mailto:caolegario@gmail.com" id="email">caolegario@gmail.com</a></p>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+            	<a href="https://www.linkedin.com/pub/christopher-olegario/48/541/336"><img src="img/linkedin.png" alt=""></a> 
+            </div>
 
-		<div class="cd-fixed-bg cd-bg-3">
-			<h2>contact</h2>
-		</div> <!-- cd-fixed-bg -->
-
-		<div class="cd-scrolling-bg cd-color-3">
-			<div class="cd-container">
-				<h2 id="email"><a href="mailto:caolegario@gmail.com" class="email">caolegario@gmail.com</a></h2>
-
-
-			</div> <!-- cd-container -->
-		</div> <!-- cd-scrolling-bg -->
-
-		<div class="cd-fixed-bg cd-bg-4">
-			<h2 id="thankyou">"The mountains are calling and I must go"</h2>
-			<h2 id="jm">-John Muir</h2>
-		</div> <!-- cd-fixed-bg -->
-	</main> <!-- cd-main-content -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="js/main.js"></script> <!-- Resource jQuery -->
+			<div class="col-sm-2">
+                <a href="http://instagram.com/olegarioca/"><img src="img/instagram.png" alt=""></a>
+            </div>
+			<div class="col-sm-2">
+                <a href="https://www.facebook.com/christopher.a.olegario"><img src="img/facebook.png" alt=""></a>
+            </div>
+             <div class="col-sm-2">
+            	<a href="https://twitter.com/olegarioca"><img src="img/twitter.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="quote" class="pad-section">
+  <div class="quote">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h3>"The mountains are calling and I must go."</h3>
+        <h4>-John Muir</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="thankYou" class="pad-section">
+	<div class="container thankYou">
+		<h2>home, sweet home</h2>
+	</div>
+</div>
+<!-- google map -->
+<div id="google_map"></div>
+<footer>
+  <hr />
+  <div class="container" >
+    <p class="text-right">Copyright &copy; Christopher Andrew Olegario 2015</p>
+  </div>
+</footer>
 </body>
 <script>
 var opts = {
@@ -159,6 +268,9 @@ var opts = {
     fullScreen : true,
     swipe : false
 };
-makeBSS('.num2', opts);
+makeBSS('.num2', opts);	
 </script>
 </html>
+
+		
+		      
